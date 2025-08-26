@@ -41,7 +41,7 @@ Potentially useful reading:
 For more detailed guidelines, see [`code_template.md`](https://github.com/DataStorytellingLab/introduction/blob/main/workshop-template/code_template.md)
 <br>
 
-## Replication materials
+## Replication data
 Your repository should include relevant information for a student to reproduce the workflow. This could mean including a folder with relevant replication data. Or it could mean providing other clear guildeines for accessing data, such as using API calls to ingest data directly into a code template. However you decide to structure this, please keep in mind the following best practices:
 - Include a 'how to replicate this' paragraph somewhere in the repostitory, for example in the `readme.md`
 - Use APIs when relevant to reduce the raw data needing organization and storage. Please be sure to clearly explain how to use the API in the code template (including how to obtain keys, and how to configure the query)
@@ -53,4 +53,6 @@ Your repository should include relevant information for a student to reproduce t
 
 Potentially useful reading: 
 - [Trisovic, Ana, et al. (2022) A large-scale study on research code quality and execution. Scientific Data 9: 60](https://drive.google.com/file/d/137ig_nDWtXIVwsFRoDvxZgDV1TV8oAXf/view?usp=sharing)
+
+For more detailed guidelines, see [`data_template.md`](https://github.com/DataStorytellingLab/introduction/blob/main/workshop-template/data_template.md)
 <br>
