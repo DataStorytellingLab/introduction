@@ -28,7 +28,7 @@ Potentially useful reading:
 - Pratt Institute Center for Teaching and Learning, "Lesson Planning Frameworks", _The Art and Architecture of Teaching and Learning: A Course Design Resource Hub_, https://prattctl.org/course-design/
 <br>
 
-## Code templates
+## Code template
 The specific structure and content of your code templates will of course vary based on the languages used and the nature of the workflow. But please be sure to integrate literate programming and data science pedagogy best practices throughout. Those best practices include:
 - Clearly indicate the order in which a student should proceed, for example by numbering files sequentially
 - Use descriptive and easy-to-understand names for folders, files, functions, and variables
@@ -37,6 +37,8 @@ The specific structure and content of your code templates will of course vary ba
 
 Potentially useful reading: 
 - [Candela, G. et al. (2023). An approach to assess the quality of Jupyter projects published by GLAM institutions. Journal of the Association for Information Science and Technology, 74(13), 1550–1564.](https://drive.google.com/file/d/1HB40Aga9brU7U5nJS1EBwwfIWBYooMOX/view?usp=sharing)
+
+For more detailed guidelines, see [`code_template.md`](https://github.com/DataStorytellingLab/introduction/blob/main/workshop-template/code_template.md)
 <br>
 
 ## Replication materials
