@@ -5,13 +5,13 @@ The specific structure and content of your code will of course vary based on the
 - Annotate each section of the code to explain what is happening and how it fits within the workflow
 - Explain common shorthand that you may know but a student might not (e.g., df usually means data frame, pd is a common alias for pandas)
 <br>
-<br>
+
 ## Examples of good teaching notebooks
 - Calado, Filipa, _"Intro to Python for Working with Text" workshop series_, https://github.com/gofilipa/python-for-text
 - Geary, Will, _Directory for INFO 615: Spatial Statistics_, https://github.com/willgeary/info615
 - Saldariagga, Juan, _Interactive Data Visualization Tutorials with p5.js_, https://github.com/CenterForSpatialResearch/dataviz_tutorials
 <br>
-<br>
+
 ## Additional resources:
 - Candela, G. et al. (2023). An approach to assess the quality of Jupyter projects published by GLAM institutions. _Journal of the Association for Information Science and Technology_, 74(13), 1550–1564.
 - Chang, W. (2025) _R Graphics Cookbook_, O'Reilly. https://r-graphics.org/
