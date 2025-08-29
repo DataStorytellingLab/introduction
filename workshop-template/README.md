@@ -10,8 +10,7 @@ While the specific content and organization is entirely up to you, we ask that y
 Each repository should include:
 - a `readme.md` file that identifies learning outcomes and explains the structure of the workshop
 - one or more code templates, written with literate programming best practices and annotated for step-by-step explanation
-- replication data if relevant
-- information on reproducibility
+- replication data (if relevant) and other information on reproducibility
 <br>
 
 ## readme
@@ -35,9 +34,6 @@ The specific structure and content of your code templates will of course vary ba
 - Annotate each section of the code to explain what is happening and how it fits within the workflow
 - Explain common shorthand that you may know but a student might not (e.g., `df` usually means data frame, `pd` is a common alias for `pandas`)
 
-Potentially useful reading: 
-- [Candela, G. et al. (2023). An approach to assess the quality of Jupyter projects published by GLAM institutions. Journal of the Association for Information Science and Technology, 74(13), 1550–1564.](https://drive.google.com/file/d/1HB40Aga9brU7U5nJS1EBwwfIWBYooMOX/view?usp=sharing)
-
 For more detailed guidelines, see [`code_template.md`](https://github.com/DataStorytellingLab/introduction/blob/main/workshop-template/code_template.md)
 <br>
 
@@ -50,9 +46,5 @@ Your repository should include relevant information for a student to reproduce t
  ```console
  if (!require(dplyr)) install.packages("dplyr")
 ```
-
-Potentially useful reading: 
-- [Trisovic, Ana, et al. (2022) A large-scale study on research code quality and execution. Scientific Data 9: 60](https://drive.google.com/file/d/137ig_nDWtXIVwsFRoDvxZgDV1TV8oAXf/view?usp=sharing)
-
 For more detailed guidelines, see [`data_template.md`](https://github.com/DataStorytellingLab/introduction/blob/main/workshop-template/data_template.md)
 <br>
