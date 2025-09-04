@@ -7,11 +7,11 @@ This repository hosts teaching materials produced by the Data Storytelling Lab a
 <br>
 <br>
 ## Workshops, 2025-2026 Academic Year
-- [Filipa Calado](https://www.pratt.edu/people/filipa-calado/), _Text analysis in Python_ (September 18)
-- [John Decker](https://www.pratt.edu/people/john-decker/), _Working with Data Manually_ (October 16)
-- [John Lauermann](https://www.pratt.edu/people/john-lauermann/), _Using the Census API_ (November 20)
-- TBD (February 12)
-- TBD (March 12) 
+- [Filipa Calado](https://www.pratt.edu/people/filipa-calado/), _Text analysis in Python_ (September 18, 3:00-4:30pm, PMC 610) [RSVP Here](https://docs.google.com/forms/d/e/1FAIpQLSdFIMw8_gUXU_LAl2cYbUWyXBN3rY50AS_rfxGHJ1tx4cuBHw/viewform?usp=sharing&ouid=117389538230605280401)
+- [John Decker](https://www.pratt.edu/people/john-decker/), _Working with Data Manually_ (October 16, 3:00-4:30pm)
+- [John Lauermann](https://www.pratt.edu/people/john-lauermann/), _Using the Census API_ (November 20, 3:00-4:30pm)
+- [Mark Rosin](https://www.pratt.edu/people/mark-rosin/),  _Intro to Mathematical Modeling & Visualization in Python_ (February 12)
+- Student team TBD, _Visualizing archives_, (March 12) 
 - [Claudia Berger](https://www.pratt.edu/people/claudia-berger/), _Data physicalization_ (April 9)
 
 <br>
