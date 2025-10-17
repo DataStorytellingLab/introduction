@@ -1,35 +1,50 @@
-# Data Storytelling Lab
-
-#### Led by: [Kathy Carbone](https://www.pratt.edu/people/kathy-carbone/) & [John Lauermann](https://www.pratt.edu/people/john-lauermann/)
-#### [School of Information](https://www.pratt.edu/information/), Pratt Institute
-
-This repository hosts teaching materials produced by the Data Storytelling Lab at Pratt Institute. There is widespread interest in data storytelling around Pratt Institute, as evidenced by faculty research initiatives and student demand for data storytelling coursework. Yet there are significant barriers to entry for this practice, including technical skills for working with data; knowledge of data content, formatting, and standards; and creative skills related to visualization, narrative, and UX design. We established the Data Storytelling Lab (DSL) as a teaching lab focused on identifying, implementing, and assessing best practices for teaching and learning about data storytelling. Here you can find workshops and tutorials procuded by lab contributors, focused on technical skills for data communication. Faculty and students are welcome to use these materials as teaching and learning resources. 
-<br>
-<br>
-## Workshops, 2025-2026 Academic Year
-- [Filipa Calado](https://www.pratt.edu/people/filipa-calado/), _Text Processing with Python_ (September 18, 3:00-4:30pm, PMC 714) [Workshop Materials Here](https://github.com/DataStorytellingLab/processing-text-python)
-- [John Decker](https://www.pratt.edu/people/john-decker/), _Working with Data Manually_ (October 16, 3:00-4:30pm, PMC 714) [Workshop Materials Here](https://github.com/DataStorytellingLab/Working_with_Manual_Data)
-- [John Lauermann](https://www.pratt.edu/people/john-lauermann/), _Visualize Social Patterns with the Census API_ (November 20, 3:00-4:30pm, PMC 714) [Workshop Materials Here](https://github.com/DataStorytellingLab/visualize-social-patterns-census-api)
-- [Mark Rosin](https://www.pratt.edu/people/mark-rosin/),  _Intro to Mathematical Modeling & Visualization in Python_ (February 12)
-- Student team TBD, _Visualizing archives_, (March 12) 
-- [Claudia Berger](https://www.pratt.edu/people/claudia-berger/), _Data physicalization_ (April 9)
-
-<br>
+# Guidelines for Data Storytelling Lab Workshops
+#### Authored by: John Lauermann, School of Information, Pratt Institute
+#### Last updated: August 2025
+Thank you for agreeing to lead a workshop for the Data Storytelling Lab! This repository provides a basic template for use when preparing your workshop materials. 
 <br>
 
+## The basic structure
+While the specific content and organization is entirely up to you, we ask that your tutorial repository include some standard elements. These elements support replicability for faculty who may want to teach with your materials, and facilitate learning comprehension for students who may be exploring on their own. 
 
-Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
-
-This work is licensed under a
-[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
-
-[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
-
-[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
-[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
-[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+Each repository should include:
+- a `readme.md` file that identifies learning outcomes and explains the structure of the workshop
+- one or more code templates, written with literate programming best practices and annotated for step-by-step explanation
+- replication data (if relevant) and other information on reproducibility
 <br>
-<br>
-<br>
-<img width="540" height="109" align="right" alt="DSL Marketing-8-DSL_Logo_Black_Secondary" src="https://github.com/user-attachments/assets/5ffcf0fa-6bd2-43fa-852c-d95b0198fbf9" />
 
+## readme
+The markdown document will be the first document that a user reads when encountering your tutorial. Thus it needs to perform several kinds of interpretive work for explaining what the tutorial does, how to replicate the process, and why the tools used are relevant and useful. 
+
+Relevant content might include: 
+- an abstract that explains the overall purpose of the workshop and summarizes the most important skills a student will learn
+- one or more student learning outcomes, achievable in the context of a 90 minute workshop
+- a clear statement on how to replicate the workflow
+- a bibliography of relevant resources for further learning
+
+Potentially useful reading:
+- Cone, M (2025) "Basic Syntax for Markdown", _The Markdown Guide_, https://www.markdownguide.org/basic-syntax/
+- Pratt Institute Center for Teaching and Learning, "Lesson Planning Frameworks", _The Art and Architecture of Teaching and Learning: A Course Design Resource Hub_, https://prattctl.org/course-design/
+<br>
+
+## Code template
+The specific structure and content of your code templates will of course vary based on the languages used and the nature of the workflow. But please be sure to integrate literate programming and data science pedagogy best practices throughout. Those best practices include:
+- Clearly indicate the order in which a student should proceed, for example by numbering files sequentially
+- Use descriptive and easy-to-understand names for folders, files, functions, and variables
+- Annotate each section of the code to explain what is happening and how it fits within the workflow
+- Explain common shorthand that you may know but a student might not (e.g., `df` usually means data frame, `pd` is a common alias for `pandas`)
+
+For more detailed guidelines, see [`code_template.md`](https://github.com/DataStorytellingLab/introduction/blob/main/workshop-template/code_template.md)
+<br>
+
+## Replication data
+Your repository should include relevant information for a student to reproduce the workflow. This could mean including a folder with relevant replication data. Or it could mean providing other clear guildeines for accessing data, such as using API calls to ingest data directly into a code template. However you decide to structure this, please keep in mind the following best practices:
+- Include a 'how to replicate this' paragraph somewhere in the repostitory, for example in the `readme.md`
+- Use APIs when relevant to reduce the raw data needing organization and storage. Please be sure to clearly explain how to use the API in the code template (including how to obtain keys, and how to configure the query)
+- Use relative path structures and project-oriented workflows when possible (e.g., building relative paths with 'here' in R, rather than less replicable tools like `setwd()`
+- Include documentation on versions and dependencies. For example, this could mean adding a `requirements.txt` file for Python workflows, or adding relevant installations into an R script such as
+ ```console
+ if (!require(dplyr)) install.packages("dplyr")
+```
+For more detailed guidelines, see [`data_template.md`](https://github.com/DataStorytellingLab/introduction/blob/main/workshop-template/data_template.md)
+<br>
